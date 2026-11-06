@@ -1,2 +1,5 @@
 __pycache__/
 .ipynb_checkpoints/
+# keep data and figures out of git
+data/
+figures/
