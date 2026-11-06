@@ -1,0 +1,10 @@
+name: foci-plot
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - nomkl          # OpenBLAS instead of Intel MKL (avoids DLL clashes on Windows)
+  - numpy
+  - pandas
+  - matplotlib-base
+  - scipy
